@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>To do list</title>
+        <link rel="stylesheet" href="todo-css.css">
+        <script src="todo.js" defer></script>
+    </head>
+    <body>
+        <div class="">
+        <h1 style="text-align: center;color: darkblue; font-size: 70px">To do list...</h1>
+        <div class="add-panel" >
+            <h3 style="text-align: center;color: darkblue">Add an event</h3>
+            <div class="inner-add-panel">
+                <label for="text-Box1">Enter event to add into list: </label>
+                <input id="text-Box1" type="text" placeholder="Enter event" data-input="inputText">
+                <button class="btn" id="addBtn">Add to list</button>
+            </div>
+        </div></div>
+        <br>
+        <div class="todo-event" id="todo-event">
+                <div class="todo-item" data-divItem="divItem">
+                    <input type="checkbox" class="select-todo-item" id="check-box" element-type = "checkbox">
+                    <p class="todo-text" element-type="para" id=1></p>
+                    <button class="done-btn" element-type="done">Done</button>
+                    <button class="delete-btn" element-type="delete">Delete</button>
+                    <button class="update-btn" element-type="update">Update</button>
+                </div>
+        </div>
+        <div class="delete-wrapper">
+            <button id="delete-selected-Btn" class="delete-btn">Delete selected events</button>
+            <button id="delete-completed-Btn" class="delete-btn">Delete completed events</button>
+        </div>
+    </body>
+</html>

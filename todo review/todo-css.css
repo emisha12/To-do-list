@@ -1,0 +1,105 @@
+.add-panel{
+    border: 2px double black;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width: 500px;
+    transform: translateX(75%);
+    background-color: blanchedalmond;
+    opacity: 0.8;
+}
+
+.inner-add-panel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clone{
+    display: flex;
+    justify-Content: space-around;
+}
+
+.btn{
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+    outline: none;
+    height:30px;
+}
+
+.btn:hover, .done-btn:hover, .delete-btn:hover, .update-btn:hover,.not-done:hover{
+    border:2px solid grey;
+    border-radius: 5px;
+    background-color: rgb(76, 76, 155);
+}
+
+.todo-event{
+    border: 2px solid black;
+    width: 900px;
+    height: 300px;
+    overflow: scroll;
+    transform: translateX(15%);
+    padding: 20px;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+}
+
+.textBox{
+    outline-style: none;
+}
+
+.todo-item{
+    display: flex;
+    justify-Content: space-around;
+    display: none;
+}
+
+.completed{
+    background-color: rgb(174, 199, 133);
+    opacity:0.8;
+}
+
+.not-completed{
+    background-color: blanchedalmond;
+    opacity:0.8;
+}
+
+.done-btn ,.delete-btn, .update-btn, .not-done{
+    display: flex;
+    height: 30px;
+    align-self: center;
+    margin: 5px;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+    outline: none
+}
+
+.todo-text{
+    display: flex;
+    align-self: center;
+    width: 600px;
+}
+
+.selected-todo-item{
+    align-self: center;
+}
+
+.delete-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.updateTextBox{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    width: 400px;
+}
+
+.edit-todo-text{
+    outline-style: 2px black groove;
+    background-color: aliceblue;
+}
